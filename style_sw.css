@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #1b3141;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  "Gill Sans", sans-serif;
+  }
+  h2{
+    color: #333;
+    font-size: 30px;
+  }
+
+  h3{
+    color: #333;
+  }
+
+  .BackgroundImage{
+    display: none;
+  }
+
+.TitleOverview{
+    margin-top: 700px;
+    padding-left: 48px;
+    vertical-align: top;
+    margin-bottom: 30px;
+    font-family:  "Gill Sans", sans-serif;
+}
+
+
+.StatsAndMap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;}
+
+.OverviewMap {
+    width: 60%;
+    margin-right: 80px;
+    vertical-align: top;
+}
+
+.Stats {
+    width: 30%;
+    padding-top: 0;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;
+    font-size: 20px}
+
+.OverviewBlurb{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width:97%;
+    padding-left: 40px;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+
+.Stats li{
+    margin-left: 40px;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+
+  body {
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;    line-height: 1.6;
+    background-image: url('images/bgbb.jpg');
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  img{
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+  header .Title {
+    flex: 1;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .Stats {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 50px;
+}
+ .itinerary{
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family:  "Gill Sans", sans-serif;
+ }
+
+.Day1Blurb{
+    padding-top: 60px;
+    width:97%;
+    padding-left: 40px;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+
+.Day2Blurb, .Day3Blurb, .Day4Blurb, .Day5Blurb, .Day6Blurb, .Day7Blurb{
+    padding-top: 100px;
+    width:97%;
+    padding-left: 40px;
+    font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+
+.Day1img, .Day2img, .Day3img, .Day4img, .Day5img, .Day6img, .Day7img {
+    width: 70%;
+    margin: 50px auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+.Day7img{
+    margin-top: 55px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+
+footer {
+    background-color: #1b3141;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  footer div:last-child {
+    text-align: right;
+  }
+
+  footer a {
+    color: #fff;
+  }
+
+  .skip-link{
+    visibility: hidden;
+}
+
+.skip-link:hover{
+    visibility: visible;
+}
