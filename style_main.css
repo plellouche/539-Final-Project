@@ -215,7 +215,8 @@ margin-top: 30px;
 
 
   header .Title {
-    font-size: 18px;
+    font-size: 17px;
+    padding-bottom: 5px;
   }
 
   .IntroBlurb {
@@ -282,7 +283,7 @@ margin-top: 30px;
   }
 
   footer{
-    font-size: 16px;
+    font-size: 12px;
   }
 
 }
