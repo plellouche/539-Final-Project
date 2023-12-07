@@ -79,7 +79,7 @@ h3{
 
 body {
   font-family: "NeueHaasGroteskText Pro",Helvetica,Arial,sans-serif;    line-height: 1.6;
-  background-image: url('Images/pnwbg.jpg');
+  background-image: url('images/pnwbg.jpg');
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
@@ -188,4 +188,97 @@ footer a {
 
 .skip-link:hover{
   visibility: visible;
+}
+
+
+@media screen and (max-width: 720px) {
+  header {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .Title {
+    font-size: 17px;
+    padding-bottom: 5px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #1b3141;
+    text-align: center;
+  }
+
+  nav ul.active {
+    display: block;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .TitleOverview {
+    margin-top: 100px;
+    padding-left: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .StatsAndMap {
+    flex-direction: column;
+  }
+
+  .Stats {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .OverviewMap {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .OverviewBlurb {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .Day1Blurb,
+  .Day2Blurb,
+  .Day3Blurb,
+  .Day4Blurb,
+  .Day5Blurb,
+  .Day6Blurb,
+  .Day7Blurb,
+  .Day8Blurb {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .Day1img,
+  .Day2img,
+  .Day3img,
+  .Day4img,
+  .Day5img,
+  .Day6img,
+  .Day7img,
+  .Day8img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+
+    footer{
+      font-size: 12px;
+  }
 }
