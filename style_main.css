@@ -194,13 +194,13 @@ margin-top: 30px;
   }
 
   nav ul {
-    display: none;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
     background-color: #1b3141;
     text-align: center;
+    font-size: 15px;
   }
 
   nav ul.active {
@@ -210,6 +210,12 @@ margin-top: 30px;
   nav ul li {
     display: block;
     margin: 10px 0;
+    font-size: 15px;
+  }
+
+
+  header .Title {
+    font-size: 18px;
   }
 
   .IntroBlurb {
@@ -267,7 +273,6 @@ margin-top: 30px;
   }
 
   .nav-links {
-    display: none;
     position: absolute;
     width: 100%;
     background-color: #1b3141;
@@ -276,6 +281,9 @@ margin-top: 30px;
     left: 0;
   }
 
+  footer{
+    font-size: 16px;
+  }
 
 }
 
